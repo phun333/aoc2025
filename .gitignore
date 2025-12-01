@@ -1,0 +1,98 @@
+# Build outputs
+target/
+build/
+out/
+bin/
+
+# Gradle
+.gradle/
+**/build/
+gradle-app.setting
+gradle.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated/
+.springBeans/
+.sts4-cache/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Kotlin (if any)
+.kotlin/
+
+# Logs & reports
+*.log
+hs_err_pid*
+replay_pid*
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# OS / FS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependency caches
+.localcache/
+.cache/
+.cargo/
+node_modules/
+
+# Packaging artifacts
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+# Generated coverage / analysis
+jacoco.exec
+coverage/
+coverage-final.json
+
+# IDE autosave / heap dumps
+*.hprof
+
+# Git merge artifacts
+*.rej
+*.bak
+
+# Security
+*.keystore
+*.jks
+
+# Ignore all except source (optional stricter rule sample)
+# !src/**/*
